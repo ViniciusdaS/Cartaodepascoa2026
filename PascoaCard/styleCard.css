@@ -1,0 +1,35 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    width:100%;
+    height:100%;
+    background-color:bisque;
+}
+
+#panel {
+    position: relative;
+    left:25%;
+    top:70px;
+    justify-content: center;
+}
+
+#card{
+    position: relative;
+    background-color:whitesmoke;
+    width: 700px;
+    height: 500px;
+    border:solid black;
+    border-radius: 10%;
+}
+
+#icon{
+    position: absolute;
+    width:20%;height:20%;
+    left:37%;top:5%;
+}
+
+#msg{
+    color:deeppink;
+    position: absolute;
+    font-size: 25px;
+    top:30%;left:4%;right:4%;
+}
